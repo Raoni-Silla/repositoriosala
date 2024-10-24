@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Zimbaue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+        <header id="header">
+            <div class="container">
+               
+               <div class="flex">
+                    <a href="index.html"><i>
+                        <img src="img/Z-removebg-preview.png" alt="icon" style="width: 90px; ">
+                    </i></a>
+    
+                    <nav>
+                       <ul>
+                           <li><a href="index.html">home</a></li>
+                           <li><a href="ser.html">Mérito</a></li>
+                           <li><a href="eventos.html">eventos</a></li>
+                           <li><a href="cultura.html">cultura</a></li>
+                           
+                       </ul>
+                    </nav>
+    
+                     <div class="contato">
+    
+                       <a href="#"><button>contato</button></a>
+    
+                     </div>
+               </div>
+    
+            </div>
+       </header>
+    
+        <section class="banner">
+                <h1 class="destaque1">Instituto <p class="destaque2">Zimbauê</p></h1>
+        </section>
+        <script src="menu.js"></script>
+
+
+        <main>
+            <h1 class="h1p">o instituto Zimbauê</h1>
+
+            <div class="imagem-container">
+
+                <picture class="foto1">
+
+                    <source media="(max-width:750px)" srcset="img/P.jpg" type="image/png" class="source1">
+
+                    <source media="(max-width:1050px)" srcset="img/zimbaueM.jpg" type="image/png" class="source1">
+
+                    <img src="img/G.jpg" alt="imagem flexível">
+
+                </picture>
+            </div>
+                <h2 class="h2p">
+                    Bem-vindo ao Instituto do Negro de Assis Zimbauê
+                </h2>
+            <p class="p1"> 
+            o Instituto do Negro de Assis Zimbauê se destaca como um farol de resistência e amor à cultura afro-brasileira. Fundado por uma visionária que, ao longo de sua vida, lutou pela valorização e preservação da identidade negra, o Instituto é um espaço de aprendizado, reflexão e celebração. Aqui, promovemos a educação e a conscientização sobre a herança africana, oferecendo atividades que vão desde oficinas culturais a eventos que promovem a inclusão e a diversidade. Junte-se a nós nesta jornada de valorização da cultura, onde cada história contada é um passo na luta por igualdade e reconhecimento. Venha descobrir e celebrar a riqueza da cultura afro-brasileira conosco!</p>
+
+            <p class="p1"> 
+               aqui no nosso instituto temos como objetivo desmistificar a cultura do povo negro, atraves da consientização da população por meio de alguns eventos sociais ou até mesmo atraves do nosso diploma merito zumbi dos palmares</p>
+
+               <p class="p1"> 
+               o nosso instiuto organiza eventos sobre a cultura do povo negro, como o evento que foi organizado em parceria com a FEMA (Fundação Educacional Do Municipio De Assis), aonde foi organizado um evento que celebra 20 anos do Instituto Zimbauê trazendo novo formato para comemorar o Mês da Consciência Negra, nosso instituto tem como um dos seus principais objetivos desmistificar a cultura do povo negro, desmistificando a nossa cultura podemos quebrar varios preconceitos que nos afetam, você pode entender um pouco mais sobre a cultura do povo negro atraves da nossa aba de <a href="#">cultura</a>  
+
+               <p class="p1"> 
+                Nossos eventos são essenciais para o cumprimento de nossos objetivos, proporcionando oportunidades para compartilharmos e divulgarmos nossa rica cultura e história. Destacamos a campanha "Consciência Negra: Pratique o Ano Inteiro, O Racismo Perde Força", na qual visitamos escolas para promover diálogos que desafiem a narrativa histórica que frequentemente apresenta os povos negros de maneira negativa. O objetivo principal deste evento é tirar do anonimato e da invisibilidade o povo negro, desafiando paradigmas e preconceitos que ainda persistem em nossa sociedade.
+                <br>
+
+                Convidamos você a acessar nossa aba de <a href="">eventos</a> para se manter informado sobre nossas iniciativas e participar dessa jornada de valorização e reconhecimento da cultura afro-brasileira.
+            
+            </p>
+
+          
+
+            <p class="p1"> 
+                Por último, mas não menos importante, é imprescindível abordar o Diploma "Zumbi dos Palmares", um reconhecimento significativo destinado às pessoas negras assisenses que se destacam em suas contribuições para a luta contra o racismo e o preconceito em nossa cidade. Este diploma simboliza não apenas uma homenagem, mas também um meio de fortalecimento e valorização daquelas e daqueles que, por meio de suas ações e comprometimento, promovem a igualdade racial e a justiça social.
+<br><br>
+                O Diploma "Zumbi dos Palmares" é um reflexo do legado de Zumbi dos Palmares, um ícone da resistência e da luta pela liberdade. Ao conceder este reconhecimento, celebramos as realizações e os esforços daqueles que, com coragem e determinação, buscam transformar a realidade de nossa comunidade, enfrentando desafios históricos e promovendo um ambiente de respeito e inclusão.
+                <br><br>
+                Esse prêmio representa, portanto, um importante passo para a construção de uma sociedade mais justa e igualitária, onde as vozes e as histórias das pessoas negras são valorizadas e respeitadas. É um convite para que todos se unam a essa causa, reconhecendo a importância da diversidade e da inclusão no fortalecimento da nossa identidade cultural e social, você pode ver mais na nossa aba de <a href="#">merito</a>.
+            
+            </p>
+        </main>
+</body>
+</html>
+
+
+Css
+
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    background: linear-gradient(135deg, #FFD700, #FFB347, #FF6F61);
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.destaque1{
+    font-family: "Ubuntu";
+    font-size: 500PX;
+    font-weight: 600;
+    font-style: normal;
+    color: #F0F0F0;
+    text-shadow: 
+        2px 2px 0 rgba(0, 0, 0, 0.5),   
+        -2px -2px 0 rgba(0, 0, 0, 0.5),
+        2px -2px 0 rgba(0, 0, 0, 0.5), 
+        -2px 2px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.destaque2{                         
+    font-family:"Sankofa Display";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.2em;
+    color: rgb(246, 113, 4);
+    margin-left: 210px;
+    margin-top: -5px;
+    padding-top: 2px;
+    text-shadow: 
+        2px 2px 0 rgba(0, 0, 0, 0.5),   
+        -2px -2px 0 rgba(0, 0, 0, 0.5),
+        2px -2px 0 rgba(0, 0, 0, 0.5), 
+        -2px 2px 0 rgba(0, 0, 0, 0.5);  
+}
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos{
+    align-items: center;
+    margin: auto;
+}
+
+
+
+ul{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+   
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 40px; 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.422);
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.9); 
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px; 
+    text-align: justify;
+}
+
+
+strong{
+    color: #7f1586;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header{
+
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+ 
+}
+
+header.rolagem{
+    background-color: white;
+     padding: 20px 4%;
+}
+
+header.rolagem a{
+    color: rgb(226, 116, 43);
+}
+
+header.rolagem i{
+    color: rgb(219, 114, 8);
+}
+
+header i{
+    font-size: 30px;
+    color: white;
+   
+
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color:#f1f1f1;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: "Ubuntu", system-ui;
+}
+
+ header button:hover {
+    background-color: #fa6400; 
+    transition: 0.5s;
+}
+
+.contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: rgb(226, 168, 43);
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+    transition: 2s;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.664);
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(img/DALL·E\ 2024-10-17\ 23.44.26\ -\ An\ artistic\ portrayal\ of\ Zumbi\ dos\ Palmares\,\ the\ Afro-Brazilian\ leader\,\ in\ the\ center\ surrounded\ by\ vibrant\ African\ elements\ like\ tribal\ patterns\,\ Afr.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.banner h1 {
+    font-size: 5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.53);
+  
+}
+
+.banner h1 span{
+    color: blueviolet;
+}
+
+
+ main h1 h2{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.727);
+ }
+
+ .h1p{
+    padding-bottom:50px ;
+    text-align: center;
+    font-family: "Ubuntu", system-ui;
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #050505; 
+ }
+
+ .p1{
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0; 
+    line-height: 1.6; 
+    font-size: 1.1em; 
+}
+ 
+
+ .h2p{
+    padding-top: 50px;
+    font-family: "Ubuntu", system-ui;
+    text-align: center;
+ }
+ .imagem-container {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);/
+}
+
+.imagem-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+
+a {
+    color: rgb(226, 116, 43); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
